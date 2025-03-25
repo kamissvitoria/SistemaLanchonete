@@ -13,7 +13,7 @@ class ClienteSeeder extends Seeder
      */
     public function run(): void
     {
-        for ($i = 0; $i <= 120; $i++){PHP ARTISAN DB:SEED
+        for ($i = 0; $i <= 120; $i++)
             
                 Cliente::create([
                     'nome' => 'nometeste' . $i,
@@ -21,9 +21,9 @@ class ClienteSeeder extends Seeder
                     'telefone' => '18 12345-9876',
                     'endereco'=> 'rua teste vila teste',
                     'cpf'=> '12344 0003',
-                    'password'=> 'senha123'
+                    'senha'=> 'senha123'
     
                 ]);
             }
-        }
+        
 }
